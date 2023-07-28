@@ -1,0 +1,50 @@
+{
+  "clients": [
+    {
+      "id": "SKC",
+      "dev": {
+        "muramasa": "https://dev-mrsa-skc.vivaticket.com/skc_bo",
+        "b2c_url": "https://dev-b2c-skc.vivaticket.com/skc_b2c",
+        "b2c_isapi": "http://dev-cloud-api01.vivaticket.com:29015/",
+        "b2b_url": "https://dev-b2b-skc.vivaticket.com/skc_b2b"
+      },
+      "preprod": {
+        "muramasa": "https://preprod-backoffice-skc.vivaticket.com",
+        "b2c_url": "https://preprod-b2c-skc.vivaticket.com",
+        "b2c_isapi": "http://preprod-cloud-api01.vivaticket.com:29015/",
+        "b2b_url": "https://preprod-b2b-skc.vivaticket.com",
+        "b2b_isapi":"https://skc-isapi-b2b-preprod.azurewebsites.net/bosservices.dll"
+      },
+        "prod": {
+            "muramasa": "https://skc-tomcat-backoffice.azurewebsites.net",
+            "b2c_url": "https://skc-tomcat-b2c.azurewebsites.net",
+            "b2c_isapi": "https://skc-isapi-b2c.azurewebsites.net/BosServices.dll",
+            "b2b_url": "https://b2b-skc.vivaticket.com",
+            "b2b_isapi":"https://skc-tomcat-b2b.azurewebsites.net"
+        }
+    },
+    {
+      "dev": {
+        "muramasa": "https://dev-mrsa-skc.vivaticket.com/skc_bo",
+        "b2c_url": "https://dev-b2c-skc.vivaticket.com/skc_b2c",
+        "b2c_isapi": "http://dev-cloud-api01.vivaticket.com:29015/",
+        "b2b_url": "https://dev-b2b-skc.vivaticket.com/skc_b2b"
+      },
+      "id": "CHI",
+      "preprod": {
+        "muramasa": "https://preprod-backoffice-skc.vivaticket.com",
+        "b2c_url": "https://preprod-b2c-skc.vivaticket.com",
+        "b2c_isapi": "http://preprod-cloud-api01.vivaticket.com:29015/",
+        "b2b_url": "https://preprod-b2b-skc.vivaticket.com",
+        "b2b_isapi": "https://skc-isapi-b2b-preprod.azurewebsites.net/bosservices.dll"
+      },
+      "prod": {
+        "muramasa": "https://skc-tomcat-backoffice.azurewebsites.net",
+        "b2c_url": "https://skc-tomcat-b2c.azurewebsites.net",
+        "b2c_isapi": "https://skc-isapi-b2c.azurewebsites.net/BosServices.dll",
+        "b2b_url": "https://b2b-skc.vivaticket.com",
+        "b2b_isapi": "https://skc-tomcat-b2b.azurewebsites.net"
+      }
+    }
+      ]
+    }
