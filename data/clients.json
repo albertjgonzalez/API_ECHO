@@ -3,7 +3,7 @@
     {
       "id": "SKC",
       "dev": {
-        "muramasa": "https://dev-mrsa-skc.vivaticket.com/skc_bo",
+        "muramasa": "https://dev-mrsa-skc.vivaticket.com/skc_bo/login",
         "b2c_url": "https://dev-b2c-skc.vivaticket.com/skc_b2c",
         "b2c_isapi": "http://dev-cloud-api01.vivaticket.com:29015/",
         "b2b_url": "https://dev-b2b-skc.vivaticket.com/skc_b2b"
